@@ -10,9 +10,19 @@ J'ai utilisé la vbox préinstallé 'licenceProPreInstalled-2024'
 
 **apt search ssh** puis **apt install ssh**  
 
+Les paquets SSH ont bien été installé.
+
+**sudo systemctl start ssh**
+
+Demarre le service SSH
+
+>2.Connection
+
+**ssh serveur-correction@127.0.0.136**
+
 ### Résultat : 
 
-Les paquets SSH ont bien été installé.
+
 
 >3.Nombre de paquets
 
