@@ -73,7 +73,10 @@
 
 - Affiche le nom d'hôte de la machine
 
-- 'serveur-correction'
+<pre>
+      serveur-correction
+</pre>
+
 
 **hostname -d**
 
