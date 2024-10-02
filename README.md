@@ -14,7 +14,7 @@ Le réseau n'est pas disponible, cela est dû à une mauvaise paramétrage
 
 >3.Nombre de paquets
 
-**pkg -l | wc -l**
+**dpkg -l | wc -l**
 
 ###Résultat : 
 
@@ -27,4 +27,5 @@ Le réseau n'est pas disponible, cela est dû à une mauvaise paramétrage
 **df -h**
 
 ###Résultat :
-dsqdqs \n dqsdqsd
+
+
