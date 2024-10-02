@@ -28,4 +28,9 @@ Le réseau n'est pas disponible, cela est dû à une mauvaise paramétrage
 
 ###Résultat :
 
+Dans le terminal on obtien l'espace disque utilisé et disponible sur le système
+
+Format : Sys.de fichiers / Taille / Utilisé / Dispo / Uti% / Monté sur 
+
+
 
