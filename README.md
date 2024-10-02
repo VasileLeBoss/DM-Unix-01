@@ -46,10 +46,6 @@
 
 ### Résultat :
 
-- Dans le terminal on obtien l'espace disque utilisé et disponible sur le système
-
-- Format : Sys.de fichiers / Taille / Utilisé / Dispo / Uti% / Monté sur /
-
 <pre>Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
       udev               4,9G       0  4,9G   0% /dev
       tmpfs              995M    564K  994M   1% /run
