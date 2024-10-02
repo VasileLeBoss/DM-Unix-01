@@ -16,6 +16,16 @@
 
 - Demarre le service SSH
 
+**nano /etc/ssh/sshd_config**
+
+- Modification du fishier sshd_config  
+
+- Changement de PasswordAuthentification 
+
+**systemctl restart ssh**
+
+- Redemarre le serveur SSH
+
 >2.Connection
 
 **ssh serveur-correction@127.0.0.136**
