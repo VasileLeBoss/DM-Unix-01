@@ -130,3 +130,29 @@ Identifiant de disque : 3ED2EBFD-8995-4690-8EEF-8C65108F2339
 /dev/sda3    27344896 29298687  1953792   954M Système de fichiers Linux
 /dev/sda4    29298688 41940991 12642304     6G Partition d&apos;échange Linux
 </pre>
+
+**fdisk -x**
+
+- Fournit des information avancées sur la disposition physique des disques
+
+<pre>
+<b>Disque /dev/sda : 20 GiB, 21474836480 octets, 41943040 secteurs</b>
+Modèle de disque : HARDDISK        
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d&apos;E/S (minimale / optimale) : 512 octets / 512 octets
+Type d&apos;étiquette de disque : gpt
+Identifiant de disque: 3ED2EBFD-8995-4690-8EEF-8C65108F2339
+Premier LBA utilisable: 34
+Dernier LBA utilisable: 41943006
+LBA alternatif: 41943039
+LBA de départ des entrées de partition: 2
+Entrées de partitions allouées: 128
+LBA de fin des entrées de partition: 33
+
+<b>Périphérique</b> <b>   Début</b> <b>     Fin</b> <b>Secteurs</b> <b>Type-UUID                           </b> <b>UUID                                </b> <b>Nom       </b> <b>Attr.</b>
+/dev/sda1        2048 19531775 19529728 0FC63DAF-8483-4772-8E79-3D69D8477DE4 7202EEDF-B999-47CC-BE80-70C80C2C83B0 la racine  
+/dev/sda2    19531776 27344895  7813120 0FC63DAF-8483-4772-8E79-3D69D8477DE4 346085A8-A5AE-48BA-B6B7-BDA598DD7465 espace tempo
+                                                                                                                             
+/dev/sda3    27344896 29298687  1953792 0FC63DAF-8483-4772-8E79-3D69D8477DE4 8F880167-DE17-4896-BB95-EE5AAC9E2E9A les logs   
+/dev/sda4    29298688 41940991 12642304 0657FD6D-A4AB-43C4-84E5-0933C84B4F4F 68C18C76-59A6-45DF-A745-F87FD1D412DA ma swap</pre>
