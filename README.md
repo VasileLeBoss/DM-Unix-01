@@ -2,7 +2,7 @@
 
 ## Istallation
 
-j'ai utilisé la vbox préinstallé 'licenceProPreInstalled-2024'
+J'ai utilisé la vbox préinstallé 'licenceProPreInstalled-2024'
 
 ## Post-Installation
 
