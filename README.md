@@ -188,3 +188,15 @@ LBA de fin des entrées de partition: 33
 </pre>
 - On saisie le mot de passe 
 - Enfin 'exit' pour revenir au menu de récupération
+
+>Redimentionnement partition
+
+- On peut redimensionner une partition avec l'outil **GParted**
+
+### Etapes : 
+
+- Installation de l'outil GParted 
+<pre>
+      sudo apt install gparted
+</pre>
+- 
