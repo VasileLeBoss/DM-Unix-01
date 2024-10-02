@@ -1,14 +1,18 @@
 # Compte Rendu
 
+## Istallation
+
+j'ai utilisé la vbox préinstallé 'licenceProPreInstalled-2024'
+
+## Post-Installation
+
 >1.Configuration SSH sur la machine Virtuelle
 
 **apt search ssh** puis **apt install ssh**  
 
 ###Résultat : 
 
-Imposible d'initialiser la connexion à 'debian.map.fastlydns.net:80'
-
-Le réseau n'est pas disponible, cela est dû à une mauvaise paramétrage
+Les paquets SSH ont bien été installé.
 
 \------
 
