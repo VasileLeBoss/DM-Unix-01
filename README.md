@@ -28,11 +28,9 @@
 
 >2.Connection
 
-**ssh serveur-correction@127.0.0.136**
+**ssh root@10.20.0.136**
 
-### Résultat : 
-
-
+- Connecte le hote au serveur ssh 
 
 >3.Nombre de paquets
 
