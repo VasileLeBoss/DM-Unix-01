@@ -21,3 +21,10 @@ Le réseau n'est pas disponible, cela est dû à une mauvaise paramétrage
 326 paquets installé 
 
 \------
+
+>4.Space Usag
+
+**df -h**
+
+###Résultat :
+dsqdqs \n dqsdqsd
