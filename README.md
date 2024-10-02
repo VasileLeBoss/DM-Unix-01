@@ -110,3 +110,23 @@ tmpfs              995M       0  995M   0% /run/user/0
 <pre>
       root:x:0:0:root:/root:/bin/bash
 </pre>
+
+**fdisk -l**
+
+- Affiche la liste des partitions du disque 
+
+<pre>
+<b>Disque /dev/sda : 20 GiB, 21474836480 octets, 41943040 secteurs</b>
+Modèle de disque : HARDDISK        
+Unités : secteur de 1 × 512 = 512 octets
+Taille de secteur (logique / physique) : 512 octets / 512 octets
+taille d&apos;E/S (minimale / optimale) : 512 octets / 512 octets
+Type d&apos;étiquette de disque : gpt
+Identifiant de disque : 3ED2EBFD-8995-4690-8EEF-8C65108F2339
+
+<b>Périphérique</b> <b>   Début</b> <b>     Fin</b> <b>Secteurs</b> <b>Taille</b> <b>Type</b>
+/dev/sda1        2048 19531775 19529728   9,3G Système de fichiers Linux
+/dev/sda2    19531776 27344895  7813120   3,7G Système de fichiers Linux
+/dev/sda3    27344896 29298687  1953792   954M Système de fichiers Linux
+/dev/sda4    29298688 41940991 12642304     6G Partition d&apos;échange Linux
+</pre>
