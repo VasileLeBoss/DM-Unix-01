@@ -46,15 +46,16 @@
 
 ### Résultat :
 
-<pre>Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
-      udev               4,9G       0  4,9G   0% /dev
-      tmpfs              995M    564K  994M   1% /run
-      /dev/sda1          9,1G    1,6G  7,0G  19% /
-      tmpfs              4,9G       0  4,9G   0% /dev/shm
-      tmpfs              5,0M       0  5,0M   0% /run/lock
-      /dev/sda2          3,6G     40K  3,4G   1% /tmp
-      /dev/sda3          921M     31M  827M   4% /var/log
-      tmpfs              995M       0  995M   0% /run/user/0
+<pre>
+Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
+udev               4,9G       0  4,9G   0% /dev
+tmpfs              995M    564K  994M   1% /run
+/dev/sda1          9,1G    1,6G  7,0G  19% /
+tmpfs              4,9G       0  4,9G   0% /dev/shm
+tmpfs              5,0M       0  5,0M   0% /run/lock
+/dev/sda2          3,6G     40K  3,4G   1% /tmp
+/dev/sda3          921M     31M  827M   4% /var/log
+tmpfs              995M       0  995M   0% /run/user/0
 </pre>
 
 >5.Expliquer les commandes et le resultat obtenu
@@ -84,7 +85,28 @@
 
 **cat /etc/apt/sources.list | grep -v -E ’^#|^$’**
 
-- Affiche les dépôts de paquets actifs configurés sur le système 
+- Affiche les dépôts de paquets actifs configurés sur le système
 
+<pre>
+      deb http://deb.debian.org/debian/ bookworm main contrib non-free non-free-firmware
+      deb http://security.debian.org/debian-security bookworm-security main contrib non-free non-free-firmware
+      deb http://deb.debian.org/debian/ bookworm-updates main contrib non-free non-free-firmware
+</pre>
+  
 **cat /etc/shadow | grep -vE ’:\*:|:!\*:’**
 
+- Affiche les compte ayant un mot de passe
+  
+<pre>
+      root:$y$j9T$cGKpM0Fh8WZYM4MlsbdWz0$hO26Ub/deBLYO3CleXEevZ8v/V.ItKMLsZ274x5BMtA:19635:0:99999:7:::
+      messagebus:!:19635::::::
+      sshd:!:19998::::::
+</pre>
+
+**cat /etc/passwd | grep -vE 'nologin|sync'**
+
+- Affiche les compte utilisateur
+
+<pre>
+      root:x:0:0:root:/root:/bin/bash
+</pre>
