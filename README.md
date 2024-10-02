@@ -34,7 +34,10 @@ Les paquets SSH ont bien été installé.
 
 Dans le terminal on obtien l'espace disque utilisé et disponible sur le système
 
-Format : Sys.de fichiers / Taille / Utilisé / Dispo / Uti% / Monté sur 
+Format : Sys.de fichiers / Taille / Utilisé / Dispo / Uti% / Monté sur /
+
+>5.Expliquer les commandes et le resultat obtenu
+
 
 
 
