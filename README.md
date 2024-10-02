@@ -50,6 +50,17 @@
 
 - Format : Sys.de fichiers / Taille / Utilisé / Dispo / Uti% / Monté sur /
 
+  <pre>Sys. de fichiers Taille Utilisé Dispo Uti% Monté sur
+udev               4,9G       0  4,9G   0% /dev
+tmpfs              995M    564K  994M   1% /run
+/dev/sda1          9,1G    1,6G  7,0G  19% /
+tmpfs              4,9G       0  4,9G   0% /dev/shm
+tmpfs              5,0M       0  5,0M   0% /run/lock
+/dev/sda2          3,6G     40K  3,4G   1% /tmp
+/dev/sda3          921M     31M  827M   4% /var/log
+tmpfs              995M       0  995M   0% /run/user/0
+</pre>
+
 >5.Expliquer les commandes et le resultat obtenu
 
 **echo $LANG**
