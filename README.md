@@ -10,7 +10,7 @@ J'ai utilisé la vbox préinstallé 'licenceProPreInstalled-2024'
 
 **apt search ssh** puis **apt install ssh**  
 
-###Résultat : 
+### Résultat : 
 
 Les paquets SSH ont bien été installé.
 
@@ -20,7 +20,7 @@ Les paquets SSH ont bien été installé.
 
 **dpkg -l | wc -l**
 
-###Résultat : 
+### Résultat : 
 
 326 paquets installé 
 
