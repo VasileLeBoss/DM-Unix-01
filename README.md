@@ -87,9 +87,9 @@ tmpfs              995M       0  995M   0% /run/user/0
 
 - Affiche le domaine d'un système
 
-### Résultat :
-
 **cat /etc/apt/sources.list | grep -v -E ’^#|^$’**
+
+### Résultat :
 
 - Affiche les dépôts de paquets actifs configurés sur le système
 
@@ -176,3 +176,15 @@ LBA de fin des entrées de partition: 33
 **preseed**
 
 - C'est une methode permettant d'automatiser l'installation du système d'exploitation Debian et de ses dérivés
+
+>7.Rescue mode
+
+- Dans le mode de recupération, on selection 'root'
+- Sur le message il faut appuyer sur la touche entrée
+- Ensuite pour réinitialiser le mot de passe de l’utilisateur 'root', on utilise la commande passwd de cette manière :
+  
+<pre>
+      passwd root 
+</pre>
+- On saisie le mot de passe 
+- Enfin 'exit' pour revenir au menu de récupération
