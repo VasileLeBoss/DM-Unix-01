@@ -72,6 +72,8 @@ tmpfs              995M       0  995M   0% /run/user/0
 
 **hostname**
 
+### Résultat :
+
 - Affiche le nom d'hôte de la machine
 
 <pre>
@@ -81,7 +83,11 @@ tmpfs              995M       0  995M   0% /run/user/0
 
 **hostname -d**
 
+### Résultat :
+
 - Affiche le domaine d'un système
+
+### Résultat :
 
 **cat /etc/apt/sources.list | grep -v -E ’^#|^$’**
 
@@ -95,6 +101,8 @@ tmpfs              995M       0  995M   0% /run/user/0
   
 **cat /etc/shadow | grep -vE ’:\*:|:!\*:’**
 
+### Résultat :
+
 - Affiche les compte ayant un mot de passe
   
 <pre>
@@ -105,6 +113,8 @@ tmpfs              995M       0  995M   0% /run/user/0
 
 **cat /etc/passwd | grep -vE 'nologin|sync'**
 
+### Résultat :
+
 - Affiche les compte utilisateur
 
 <pre>
@@ -112,6 +122,8 @@ tmpfs              995M       0  995M   0% /run/user/0
 </pre>
 
 **fdisk -l**
+
+### Résultat :
 
 - Affiche la liste des partitions du disque 
 
@@ -132,6 +144,8 @@ Identifiant de disque : 3ED2EBFD-8995-4690-8EEF-8C65108F2339
 </pre>
 
 **fdisk -x**
+
+### Résultat :
 
 - Fournit des information avancées sur la disposition physique des disques
 
@@ -156,3 +170,9 @@ LBA de fin des entrées de partition: 33
                                                                                                                              
 /dev/sda3    27344896 29298687  1953792 0FC63DAF-8483-4772-8E79-3D69D8477DE4 8F880167-DE17-4896-BB95-EE5AAC9E2E9A les logs   
 /dev/sda4    29298688 41940991 12642304 0657FD6D-A4AB-43C4-84E5-0933C84B4F4F 68C18C76-59A6-45DF-A745-F87FD1D412DA ma swap</pre>
+
+>6.Installation automatique
+
+**preseed**
+
+- C'est une methode permettant d'automatiser l'installation du système d'exploitation Debian et de ses dérivés
