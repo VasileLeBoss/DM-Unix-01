@@ -66,7 +66,7 @@
 - La commande affiche la langue et les paramètres régionaux utilisés par le système 
 
 <pre>
-      fr_FR.UTF-8'
+      fr_FR.UTF-8
 </pre>
 
 **hostname**
