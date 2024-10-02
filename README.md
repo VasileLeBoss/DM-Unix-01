@@ -42,8 +42,19 @@ La commande affiche la langue et les paramètres régionaux utilisés par le sys
 
 'fr_FR.UTF-8'
 
->6
+**hostname**
 
+Affiche le nom d'hôte de la machine
 
+'serveur-correction'
 
+**hostname -d**
+
+Affiche le domaine d'un système
+
+**cat /etc/apt/sources.list | grep -v -E ’^#|^$’**
+
+Affiche les dépôts de paquets actifs configurés sur le système 
+
+**cat /etc/shadow | grep -vE ’:\*:|:!\*:’**
 
