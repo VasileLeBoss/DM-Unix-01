@@ -179,13 +179,14 @@ LBA de fin des entrées de partition: 33
 
 >7.Rescue mode
 
-- Dans le mode de recupération, on selection 'root'
+- Dans le mode de recupération, on selectionne 'root'
 - Sur le message il faut appuyer sur la touche entrée
 - Ensuite pour réinitialiser le mot de passe de l’utilisateur 'root', on utilise la commande passwd de cette manière :
   
 <pre>
       passwd root 
 </pre>
+
 - On saisie le mot de passe 
 - Enfin 'exit' pour revenir au menu de récupération
 
@@ -195,7 +196,8 @@ LBA de fin des entrées de partition: 33
 
 ### Etapes : 
 
-- Installation de l'outil GParted 
+- Installation de l'outil GParted
+
 <pre>
       sudo apt install gparted
 </pre>
