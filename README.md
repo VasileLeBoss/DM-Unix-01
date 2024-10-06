@@ -197,29 +197,21 @@ LBA de fin des entrées de partition: 33
 #### Étapes :
 **Installation de GParted**
    - on l'installe via la commande suivante :
-     ```bash
+     <pre>
      sudo apt install gparted
-     ```
+     </pre>
 
 **Lancement de GParted**
    - lancement du GParted :
-     ```bash
+     <pre>
      sudo gparted
-     ```
-   - L'interface nécessitant des privilèges administratifs, il vous sera demandé de saisir votre mot de passe.
+     </pre>
 
-3. **Sélection du disque**
-   - Une fois GParted ouvert, vous verrez une liste de disques disponibles en haut à droite de la fenêtre. Sélectionnez le disque contenant la partition à redimensionner.
+**Sélection du disque**
+   - il faut sélectionner le disque contenant la partition à redimensionner.
 
-4. **Démonter la partition**
-   - Avant de pouvoir redimensionner une partition, celle-ci doit être démontée. Faites un clic droit sur la partition concernée et sélectionnez **Démonter**.
-   - **Note :** Vous ne pouvez pas démonter une partition qui est en cours d’utilisation, notamment la partition racine (celle sur laquelle le système est installé). Si vous souhaitez redimensionner cette partition, vous devrez démarrer à partir d'un live CD ou USB pour accéder à GParted.
+**Redimensionner la partition**
+   - clic droit sur la partition qu'on veux redimensionner, puis sur **Redimensionner/Déplacer**.
 
-5. **Redimensionner la partition**
-   - Faites un clic droit sur la partition que vous souhaitez redimensionner, puis cliquez sur **Redimensionner/Déplacer**.
-   - Une fenêtre s’ouvrira avec un curseur vous permettant de réduire ou d'agrandir la partition. Vous pouvez aussi entrer directement les nouvelles tailles dans les champs correspondants.
-   - Assurez-vous de laisser de l’espace libre si vous souhaitez créer de nouvelles partitions à côté.
-
-6. **Appliquer les modifications**
-   - Une fois la taille ajustée, cliquez sur le bouton vert en haut de la fenêtre (icône de coche) pour appliquer les modifications.
-   - **Attention :** Redimensionner une partition peut être risqué. Assurez-vous d'avoir sauvegardé vos données avant d'appliquer les changements, car toute opération sur une partition peut entraîner une perte de données.
+**Appliquer les modifications**
+   - Appliquer les modifications.
